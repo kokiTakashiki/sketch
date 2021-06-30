@@ -5,10 +5,6 @@ using VRC.Udon;
 
 public class Block : UdonSharpBehaviour
 {
-    void Start()
-    {
-        
-    }
 
     //スクリプト「Block」がアタッチされたオブジェクトが、他のオブジェクトと当たったら実行
     private void OnCollisionEnter(Collision col) 
